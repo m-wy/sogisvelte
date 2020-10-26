@@ -7,6 +7,7 @@
       "iot": "Embedded software & IoT",
       "critique": "Critical software"
     },
+
     "entreprise": {
       "name": "The company",
       "vision": "Our vision",
@@ -22,5 +23,8 @@
   "languages": {
     "fr": "Français",
     "en_US": "English"
+  },
+  "footer": {
+    "contact": "Contact us"
   }
 }

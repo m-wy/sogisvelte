@@ -1,6 +1,6 @@
 {
   "nav": {
-    "contact": "contact",
+    "contact": "Contact",
     "services": {
       "name": "Services",
       "cloud": "Applications Cloud Natives",
@@ -22,5 +22,8 @@
   "languages": {
     "fr": "Français",
     "en_US": "English"
+  },
+  "footer": {
+    "contact": "Contactez Nous"
   }
 }
