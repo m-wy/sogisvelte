@@ -1,0 +1,128 @@
+$super-light-grey2:#FCFCFC;
+$super-light-grey: #F9F9F9;
+$light-grey:#D3D3D3;
+$medium-grey:#707070;
+$dark_grey:#282E36;
+$sub_medium_grey:#666666;
+
+$dark_blue:#00446C;
+$wolf-blue:#016099;
+$medium-blue:#4EB2DD;
+$light-electric-blue:#A7E4EA;
+$light-grey-blue:#EDF5F5;
+
+body {
+	margin: 0;
+	font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 0.5em 0;
+	font-weight: 400;
+	line-height: 1.2;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+a {
+	color: inherit;
+}
+
+code {
+	font-family: menlo, inconsolata, monospace;
+	font-size: calc(1em - 2px);
+	color: #555;
+	background-color: #f0f0f0;
+	padding: 0.2em 0.4em;
+	border-radius: 2px;
+}
+
+@media (min-width: 400px) {
+	body {
+		font-size: 16px;
+	}
+}
+
+//TYPOS
+.title_level_1{
+	font-family: 'EB Garamond', serif;
+	font-weight:600;
+	color:$wolf-blue;
+	font-size:3em;
+}
+
+.text_montserrat{
+	font-family: 'Montserrat', sans-serif;
+	color:$medium-grey;
+	font-size:1em;
+	font-weight:300;
+}
+
+.title_subcategory{
+	color:$light-grey;
+	font-family: 'Montserrat', sans-serif;
+	font-size:0.8em;
+	font-weight:400;
+}
+
+.title_name{
+	color:$wolf-blue;
+	font-family: 'Montserrat', sans-serif;
+	font-size:1.5em;
+	font-weight:700;
+}
+
+.title_zone{
+	font-family: 'EB Garamond', serif;
+	font-weight:700;
+	color:$medium-grey;
+	font-size:2em;
+}
+
+.title_zone::before{
+	content: '';
+	height: 5px;
+	width: 25px;
+	background-color: #A7E4EA;
+	display: block;
+	position: absolute;
+	margin-top: 20px;
+	margin-left: -36px;
+}
+
+
+.text_description{
+	color:$medium-grey;
+	font-family: 'Montserrat', sans-serif;
+	font-size:0.9em;
+	font-weight:400;
+}
+
+.text_description_little{
+	color:$medium-grey;
+	font-family: 'Montserrat', sans-serif;
+	font-size:0.62em;
+	font-weight:400;
+}
+
+
+.liens_text{
+	color:$medium-grey;
+	font-family: 'Montserrat', sans-serif;
+	font-size:0.9em;
+	font-weight:600;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.liens_text:hover{
+	color:$wolf-blue;
+	text-decoration:none;
+}

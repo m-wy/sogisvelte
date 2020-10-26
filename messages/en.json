@@ -7,7 +7,6 @@
       "iot": "Embedded software & IoT",
       "critique": "Critical software"
     },
-
     "entreprise": {
       "name": "The company",
       "vision": "Our vision",
@@ -16,6 +15,53 @@
     },
     "blog": "Blog",
     "accueil": "Home"
+  },
+  "critique": {
+    "titres": {
+      "0": "Conçus pour durer",
+      "1": "Soyez conforme",
+      "2": "Plus rapidement sur le marché",
+      "3": "Accroître l'efficacité",
+      "4": "Diminuer les coûts",
+      "5": "Des délais de mise sur le marché plus courts, une qualité supérieure pour vos applications critiques.",
+      "6": "Nous créons nos propres outils.",
+      "7": "<img class='img-fluid' src='logo_rmtool.png'>",
+      "8": "<img class='img-fluid' src='logo_xreq.png'>",
+      "9": "Discutons ensemble de votre projet!",
+      "10": "Nous faisons de la conformité aux normes pour les logiciels un non-événement",
+      "11": "Voici quelques exemples de normes avec lesquelles nous pouvons vous aider à accélérer vos délais de mise sur le marché et votre efficacité.",
+      "12": "Une équipe fiable et d'excellentes références clients.",
+      "13": "Projet Aéronautique DO-178C DAL A.",
+      "14": "Sogilis est le co-fondateur de Hionos.",
+      "15": "Ensemble, créons quelque chose de remarquable !"
+    },
+    "contenus": {
+      "0": "Nous avons créé le framework le plus efficace pour vous permettre de livrer votre logiciel certifiable à un rythme rapide.",
+      "1": "Construisez un processus conforme à vos normes d'une manière plus itérative. Faciliter les tâches de l'organisme de certification.",
+      "2": "Quittez le cycle en V et soyez agile tout en gardant un processus strict. La certification continue vous permet d'avoir deux longueurs d'avance sur vos concurrents.",
+      "3": "Intégrer un ensemble d'outils spécifiquement conçus pour apporter efficacité et agilité aux développements d'applications et faciliter l'appropriation des processus par votre équipe.",
+      "4": "Identifier les incohérences et les erreurs à un stade très précoce. Réduisez <b>significativement</b> vos coûts de développement tout en augmentant la qualité globale.",
+      "5": "<ul><li>De A à Z => Du processus de certification et plans jusqu'à la livraison du logiciel.</li><li>Vous aider à définir vos besoins (bas et haut niveau).</li><li>Formez votre équipe avec les meilleures pratiques d'ingénierie.</li><li>Stratégie de tests.</li><li>Développement progressif./li><li>Livraison continue.</li></ul>",
+      "6": "Nous avons créé les meilleurs outils pour rendre les logiciels conformes aux normes agiles.",
+      "7": "Gérer la traçabilité des exigences avec un outil puissant mais léger dédié à la conformité agile des certifications. Cessez d'être submergé par des outils lourds et encombrants comme Doors et autres.",
+      "8": "XReq est un générateur automatisé de Langage Naturel aux Tests Automatisés, spécialement conçu pour les projets critiques conformes aux normes les plus exigeantes. XReq s'est inspiré des outils BDD de la communauté Web Agile en gardant à l'esprit la fiabilité, la qualité et les contraintes critiques de sécurité.",
+      "9": "",
+      "10": "Qu'il s'agisse d'un problème critique pour votre activité logicielle (une panne peut entraîner une perte importante d'activité et d'argent) ou critique pour la sécurité (une panne peut entraîner la mort). Notre équipe expérimentée est là pour vous aider à mettre en place les règles de développement du cycle de vie les plus pertinentes pour respecter les fortes contraintes de certification et donner à votre équipe la possibilité de suivre un processus strict mais efficace, et ce, peu importe le standard de certification auquel vous devez satisfaire, et même si vous ne voulez pas respecter un seul de vos critères de sécurité, Sogilis vous permettra de concevoir le meilleur processus strict et agile, et de réduire vos frais de maintenance.",
+      "11": "",
+      "12": "Sogilis a travaillé sur un composant critique, embarqué dans un gros avion de ligne européen récent. Le projet a appliqué avec succès un processus itératif (livraison et retour d'information des ingénieurs aéronautiques toutes les deux semaines) et a été l'un des premiers projets aéronautique DAL A et complétement agile.",
+      "13": "Hionos est une entreprise qui construit le pilote automatique pour drones le plus exigeant, conforme à la norme DO-178C à son plus haut niveau (DAL A) combinant à la fois DO-331 (Élaboration et vérification fondées sur des modèles), DO-332 (Technologie orientée objet et techniques connexes), et DO-333 (Méthodes formelles).",
+      "14": "Sogilis a également participé à des projets tels que des logiciels médicaux, des logiciels bancaires, de supervision nucléaire, de contrôle de processus ou des projets non soumis à des normes mais dont la fiabilité était critique pour l'entreprise.",
+      "15": ""
+    },
+    "normes" : {
+      "1" : {"titre" : "DO178-C", "domaine": "(Aéoronautique)"},
+      "2" : {"titre" : "EN50128", "domaine": "(Voie férrée)"},
+      "3" : {"titre" : "IEC 61508", "domaine": "(Électronique)"},
+      "4" : {"titre" : "IEC 62304", "domaine": "(Médicale)"},
+      "5" : {"titre" : "ISO 26262", "domaine": "(Automobile)"},
+      "6" : {"titre" : "IEC 60880", "domaine": "(Nucleaire)"},
+      "7" : {"titre" : "Règles Personnalisée", "domaine": ""}
+    }
   },
   "title": {
     "index": "Sapper EN"
