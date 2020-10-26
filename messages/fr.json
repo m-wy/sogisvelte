@@ -1,5 +1,26 @@
 {
+  "nav": {
+    "contact": "contact",
+    "services": {
+      "name": "Services",
+      "cloud": "Applications Cloud Natives",
+      "iot": "Logiciels Embarqués & IoT",
+      "critique": "Logiciels Critiques"
+    },
+    "entreprise": {
+      "name": "L'enterprise",
+      "vision": "Notre vision",
+      "approche": "Notre approche",
+      "emplois": "Nous rejoindre"
+    },
+    "blog": "Blog",
+    "accueil": "Accueil"
+  },
   "title": {
     "index": "Sapper FRRR!"
+  },
+  "languages": {
+    "fr": "Français",
+    "en_US": "English"
   }
 }

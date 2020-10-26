@@ -1,60 +1,81 @@
 <script>
-	export let segment;
+    import {_, locale, locales} from 'svelte-i18n';
 </script>
 
-<style>
-	nav {
-		border-bottom: 1px solid rgba(255,62,0,0.1);
-		font-weight: 300;
-		padding: 0 1em;
-	}
+<style lang="scss">
+  nav {
+    border-bottom: 1px solid rgba(255, 62, 0, 0.1);
+    font-weight: 300;
+    padding: 0 1em;
+  }
 
-	ul {
-		margin: 0;
-		padding: 0;
-	}
+  ul {
+    margin: 0;
+    padding: 0;
+  }
 
-	/* clearfix */
-	ul::after {
-		content: '';
-		display: block;
-		clear: both;
-	}
+  /* clearfix */
+  ul::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
 
-	li {
-		display: block;
-		float: left;
-	}
+  li {
+    display: block;
+    float: right;
+  }
 
-	[aria-current] {
-		position: relative;
-		display: inline-block;
-	}
+  a {
+    text-decoration: none;
+    padding: 1em 0.5em;
+    display: block;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
 
-	[aria-current]::after {
-		position: absolute;
-		content: '';
-		width: calc(100% - 1em);
-		height: 2px;
-		background-color: rgb(255,62,0);
-		display: block;
-		bottom: -1px;
-	}
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
 
-	a {
-		text-decoration: none;
-		padding: 1em 0.5em;
-		display: block;
-	}
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 </style>
 
 <nav>
-	<ul>
-		<li><a aria-current="{segment === undefined ? 'page' : undefined}" href=".">home</a></li>
-		<li><a aria-current="{segment === 'about' ? 'page' : undefined}" href="about">about</a></li>
+    <ul>
+        <li><a  href="contact">{$_('nav.contact')}</a></li>
+        <li><a rel=prefetch href="blog">{$_('nav.blog')}</a></li>
+        <li class="dropdown"><a href="#">{$_('nav.entreprise.name')}</a>
+            <div class="dropdown-content">
+                <ul>
+                    <li><a href="vision">{$_('nav.entreprise.vision')}</a></li>
+                    <li><a href="approche">{$_('nav.entreprise.approche')}</a></li>
+                    <li><a href="emplois">{$_('nav.entreprise.emplois')}</a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="dropdown"><a href="#">{$_('nav.services.name')}</a>
+            <div class="dropdown-content">
+                <ul>
+                    <li><a href="services-applications-cloud-native">{$_('nav.services.cloud')}</a></li>
+                    <li><a href="services-embarques-et-iot">{$_('nav.services.iot')}</a></li>
+                    <li><a href="services-logiciels-critiques">{$_('nav.services.critique')}</a></li>
+                </ul>
+            </div>
+        </li>
+        <li><a  href=".">{$_('nav.accueil')}</a></li>
 
-		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
-		     the blog data when we hover over the link or tap it on a touchscreen -->
-		<li><a rel=prefetch aria-current="{segment === 'blog' ? 'page' : undefined}" href="blog">blog</a></li>
-	</ul>
+        <!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
+             the blog data when we hover over the link or tap it on a touchscreen -->
+    </ul>
 </nav>

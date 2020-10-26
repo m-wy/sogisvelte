@@ -1,5 +1,26 @@
 {
+  "nav": {
+    "contact": "Contact",
+    "services": {
+      "name": "Services",
+      "cloud": "Cloud Natives Applications",
+      "iot": "Embedded software & IoT",
+      "critique": "Critical software"
+    },
+    "entreprise": {
+      "name": "The company",
+      "vision": "Our vision",
+      "approche": "Our approach",
+      "emplois": "Jobs"
+    },
+    "blog": "Blog",
+    "accueil": "Home"
+  },
   "title": {
     "index": "Sapper EN"
+  },
+  "languages": {
+    "fr": "Français",
+    "en_US": "English"
   }
 }
